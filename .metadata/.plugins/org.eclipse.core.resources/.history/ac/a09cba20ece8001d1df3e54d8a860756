@@ -1,0 +1,25 @@
+package sec03.exam06;
+
+public class StringConcatExample {
+
+	public static void main(String[] args) {
+		//숫자 연산 경우 한번은 더하는데 두번은 못더함 멍청한놈 
+		int value1 = 10 + 2 +8;
+		System.out.println(value1);
+		//결합연산
+		String str1 = 10 + 2 + 8;
+		System.out.println("str1: " + str1);
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+	}
+
+}

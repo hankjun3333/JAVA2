@@ -1,0 +1,30 @@
+package sec03.exam05;
+
+public class OperationsPromotionExample {
+
+	public static void main(String[] args) {
+		
+		byte bytevalue1 = 10;
+		byte bytevalue2 = 20;
+		long result = bytevalue1 + bytevalue2;
+		// 말햇듯이 byte변수+byte 변수 더할땐 int, long 같이 상위변수사용
+		
+		char charvalue1 = 'A'+1;
+		char charvalue2 = 1;
+		//char intvalue2 = charvalue1 + charvalue2; char도 마찬가지
+		int intvalue2 = charvalue1 + charvalue2;
+		
+		System.out.println("유니코드=" +intvalue2);
+		System.out.println("출력문자=" +(char)intvalue2);
+		System.out.println(result);
+		System.out.println(intvalue2);
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

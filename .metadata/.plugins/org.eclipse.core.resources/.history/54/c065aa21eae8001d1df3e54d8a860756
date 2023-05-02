@@ -1,0 +1,22 @@
+package sec03.exam04;
+
+public class LongOperationExample {
+
+	public static void main(String[] args) {
+		
+		long value = 10;
+		long value = 100;
+		long value = 1000L;
+		long result = value1 + value2 + value3;
+		
+		System.out.println(result);
+		
+		
+		
+		
+		
+		
+
+	}
+
+}
